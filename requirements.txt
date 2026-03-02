@@ -1,2 +1,23 @@
 Django==1.11.29
 requests==2.20.0
+# --- 安全性漏洞 (CVE) 測試標的 ---
+# 存在嚴重漏洞 (Remote Code Execution)，對應 CVE-2019-14891, CVE-2021-35042
+Django==2.2.1
+
+# 存在資訊洩露風險，對應 CVE-2018-18074
+requests==2.19.1
+
+# 存在拒絕服務 (DoS) 漏洞，對應 CVE-2023-43804
+urllib3==1.26.14
+
+# --- 授權合規 (License Compliance) 測試標的 ---
+# 下列套件通常使用 GPL 或 LGPL 授權，在企業軟體中需嚴格審核其傳染性
+# PyQt5 使用 GPL v3 授權 (強傳染性開源協議)
+PyQt5==5.15.0
+
+# readline 常用於命令列工具，通常為 GPL v3 授權
+gnureadline==8.0.0
+
+# --- 過時套件 (Outdated) 測試標的 ---
+# 雖然可能沒漏洞，但版本過舊，屬於維護風險
+numpy==1.15.0
