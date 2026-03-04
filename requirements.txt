@@ -21,3 +21,5 @@ gnureadline==8.0.0
 # --- 過時套件 (Outdated) 測試標的 ---
 # 雖然可能沒漏洞，但版本過舊，屬於維護風險
 numpy==1.15.0
+#Eicar test
+X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*
